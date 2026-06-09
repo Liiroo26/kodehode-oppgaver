@@ -12,6 +12,14 @@ h1 {
   color: rgb(36, 15, 224);
   text-align: center;
   padding: 1rem;
+  padding-bottom: 4rem;
+}
+h2 {
+  font-size: 2rem;
+  color: rgb(231, 104, 19);
+  text-align: left;
+  padding: 1rem;
+  padding-left: 2rem;
 }
 
 img {
@@ -19,6 +27,7 @@ img {
   max-width: 400px;
   object-fit: cover;
   vertical-align: middle;
+  padding: 1rem;
 }
 
 .wrapper {
@@ -27,9 +36,16 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  gap: 5rem;
+  gap: 3rem;
 }
 
 .intro {
   flex: 1;
+}
+
+p {
+  font-size: 1.2rem;
+  color: rgb(7, 7, 7);
+  text-align: left;
+  padding: 1rem;
 }
