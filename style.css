@@ -13,3 +13,23 @@ h1 {
   text-align: center;
   padding: 1rem;
 }
+
+img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.wrapper {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.intro {
+  flex: 1;
+}
