@@ -56,3 +56,10 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+#blog-title {
+  background-color: rgb(231, 104, 19);
+}
+.comic-sans {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
